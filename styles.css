@@ -7,6 +7,10 @@ body {
     height: 100vh;
     margin: 0;
 }
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
 
 #todo-app {
     width: 100%;
