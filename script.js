@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const li = document.createElement('li');
         li.textContent = taskText;
         
-        // Add click event to toggle completed class
+        // Add click event to mark task as completed
         li.addEventListener('click', function() {
-            li.classList.toggle('completed');
+            li.classList.add('completed');
         });
         
         // Create a new button element for removing the task
